@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.vm.version,sysinfo,,,"17.0-b16",1434346601189
+started,bundle,org.eclipse.mylyn.monitor.ui,3.2.0.v20090617-0100-e3x,"org.eclipse.mylyn.monitor.ui",1434346601798
+started,bundle,org.eclipse.epp.usagedata.ui,1.1.0.R200906100410,"org.eclipse.epp.usagedata.ui",1434346602250
+started,bundle,org.eclipse.core.variables,3.2.200.v20090521,"org.eclipse.core.variables",1434346602952
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1434346603077
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1434346824957
+activated,view,org.eclipse.ui.navigator.resources,3.4.0.I20090525-2000,"org.eclipse.ui.navigator.ProjectExplorer",1434346828826
+started,bundle,org.eclipse.jst.jee.ejb,1.0.200.v200810230716,"org.eclipse.jst.jee.ejb",1434346829653
+started,bundle,org.eclipse.jst.jee.web,1.0.200.v200904130912,"org.eclipse.jst.jee.web",1434346829653
+started,bundle,org.eclipse.xsd,2.5.0.v200906151043,"org.eclipse.xsd",1434346829856
+started,bundle,org.eclipse.ltk.core.refactoring,3.5.0.v20090513-2000,"org.eclipse.ltk.core.refactoring",1434346835347
+started,bundle,org.eclipse.ui.views.properties.tabbed,3.5.0.I20090429-1800,"org.eclipse.ui.views.properties.tabbed",1434346836002
+started,bundle,org.eclipse.jst.jsf.common.ui,1.1.1.v20081209,"org.eclipse.jst.jsf.common.ui",1434346836049
+started,bundle,org.eclipse.jst.pagedesigner,1.2.0.v20090602,"org.eclipse.jst.pagedesigner",1434346836096
+started,bundle,org.eclipse.gef,3.5.0.v20090528-1511,"org.eclipse.gef",1434346836158
+started,bundle,org.eclipse.draw2d,3.5.0.v20090528-1511,"org.eclipse.draw2d",1434346836533
+started,bundle,org.eclipse.jst.pagedesigner.jsp.core,1.1.2.v20090601,"org.eclipse.jst.pagedesigner.jsp.core",1434346838280
+started,bundle,org.eclipse.jst.jsf.apache.trinidad.tagsupport,1.1.0.v20090525,"org.eclipse.jst.jsf.apache.trinidad.tagsupport",1434346838639
+started,bundle,org.eclipse.jst.pagedesigner.jsf.ui,1.1.2.v20090317,"org.eclipse.jst.pagedesigner.jsf.ui",1434346838670
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1434346840526
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1434346843289
+error,log,,,"Unhandled event loop exception",1434346843352
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1434346843477
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1434346845692
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1434346846612

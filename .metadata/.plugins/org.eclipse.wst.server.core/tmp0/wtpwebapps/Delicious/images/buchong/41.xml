@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>41</ID>
+<feature>
+<name>麻辣香锅鸡翅</name>
+<domestic>国内</domestic>
+<region>川菜</region>
+<type>菜品</type>
+<favor>香</favor>
+<favor>特辣</favor>
+<material>鸡肉</material>
+<material>土豆</material>
+<material>莴笋</material>
+<material>藕</material>
+</feature>
+<owner>
+<restaurant>麻辣诱惑</restaurant>
+<location>北京市海淀区中关村大街15号津乐汇购物广场二层</location>
+<howtoarrive>以北大南门为起点，像正东走约100米右转，再走约100米左转，直行过海淀桥后走至上品折扣，在路口左转，直行过三个红绿灯后见津乐汇，直上二楼</howtoarrive>
+<price>56</price>
+<size>4</size>
+<match>可乐</match>
+<score>7</score>
+<critique>很不错，辣的爽</critique>
+<connection>麻辣香锅牛蛙</connection>
+</owner>
+<pic>41.jpg</pic>
+</item>

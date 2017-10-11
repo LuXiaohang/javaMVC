@@ -1,0 +1,28 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>6</ID>
+<feature>
+<name>肉末米线</name>
+<domestic>国内</domestic>
+<region>其他</region>
+<type>主食</type>
+<favor>香</favor>
+<favor>咸</favor>
+<material>米线</material>
+<material>猪肉</material>
+</feature>
+<owner>
+<restaurant>傣家风味</restaurant>
+<location>北大南门对面</location>
+<howtoarrive>从北京大学南门出发，过马路后向西走，30米左右</howtoarrive>
+<price>24</price>
+<size>2</size>
+<match>梅子酒</match>
+<score>8</score>
+<critique>偏油，不是很推荐</critique>
+<connection>过桥米线</connection>
+</owner>
+<pic>6.jpg</pic>
+</item>

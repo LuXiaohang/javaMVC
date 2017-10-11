@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>42</ID>
+<feature>
+<name>黑三剁炒饭</name>
+<domestic>国内</domestic>
+<region>其他</region>
+<type>主食</type>
+<favor>咸</favor>
+<favor>香</favor>
+<favor>微辣</favor>
+<material>米</material>
+<material>青椒</material>
+<material>红椒</material>
+<material>猪肉</material>
+<material>大头菜</material>
+</feature>
+<owner>
+<restaurant>七彩云间云南傣家风味</restaurant>
+<location>海淀区海淀路19-1号中成大厦1楼(北大南门对面)</location>
+<howtoarrive>北大南门为起点，过马路后即可见到</howtoarrive>
+<price>12</price>
+<size>2</size>
+<match>啤酒</match>
+<score>8</score>
+<critique>便宜，味道真心好</critique>
+<connection>土豆球</connection>
+</owner>
+<pic>42.jpg</pic>
+</item>

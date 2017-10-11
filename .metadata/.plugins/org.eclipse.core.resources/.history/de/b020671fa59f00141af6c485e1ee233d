@@ -1,0 +1,207 @@
+<%@ page  contentType="text/html; charset=UTF-8"   pageEncoding="UTF-8"%>
+<html> 	
+<head> 
+    <title><% out.print("Momovie"); %></title>  
+    <script>
+  function name(){
+	  document.getElementById('name').style.display="block";
+	  document.getElementById('director').style.display="none";
+	  document.getElementById('role').style.display="none";
+	  document.getElementById('type').style.display="none";
+	  document.getElementById('score').style.display="none";
+	  document.getElementById('time').style.display="none";
+  }
+  function director(){
+	  document.getElementById('name').style.display="none";
+	  document.getElementById('director').style.display="block";
+	  document.getElementById('role').style.display="none";
+	  document.getElementById('type').style.display="none";
+	  document.getElementById('score').style.display="none";
+	  document.getElementById('time').style.display="none";
+  }
+  function role(){
+	  document.getElementById('name').style.display="none";
+	  document.getElementById('director').style.display="none";
+	  document.getElementById('role').style.display="block";
+	  document.getElementById('type').style.display="none";
+	  document.getElementById('score').style.display="none";
+	  document.getElementById('time').style.display="none";
+  }
+  function type(){
+	  document.getElementById('name').style.display="none";
+	  document.getElementById('director').style.display="none";
+	  document.getElementById('role').style.display="none";
+	  document.getElementById('type').style.display="block";
+	  document.getElementById('score').style.display="none";
+	  document.getElementById('time').style.display="none";
+  }
+  function score(){
+	  document.getElementById('name').style.display="none";
+	  document.getElementById('director').style.display="none";
+	  document.getElementById('role').style.display="none";
+	  document.getElementById('type').style.display="none";
+	  document.getElementById('score').style.display="block";
+	  document.getElementById('time').style.display="none";
+  }
+  function time(){
+	  document.getElementById('name').style.display="none";
+	  document.getElementById('director').style.display="none";
+	  document.getElementById('role').style.display="none";
+	  document.getElementById('type').style.display="none";
+	  document.getElementById('score').style.display="none";
+	  document.getElementById('time').style.display="block";
+  }
+</script>
+    <style type="text/css">
+     div#container{
+     margin:auto;
+     border: 1px solid 000000;
+     }
+     </style>
+    <style> 
+    *{ 
+        margin: 0; 
+        padding: 0; 
+    } 
+
+    .search{ 
+        margin-top:100px;
+        margin-left:380px;
+        width: 800px; 
+        height:50px;
+        position:relative;
+    } 
+
+    .search_key{ 
+        font-style:"微软雅黑";
+        font-size:20px;
+        width: 500px; 
+        height: 35px; 
+        border: 2px solid CornflowerBlue;
+    } 
+
+    .submit{ 
+        font-style:"微软雅黑";
+        font-size:20px;
+        color:Azure;
+        background:CornflowerBlue ; 
+        width:100px; 
+        height: 35px;  
+    } 
+    .table{
+        margin-top:0px;
+        height:55px;
+        width:480px;    
+    }
+    .button
+    {
+    	width:100px;
+    	height:50px;
+    	font-style:"微软雅黑";
+        font-size:20px;
+        background:White ;
+        border:0;
+    }
+    </style> 
+
+</head> 
+
+<body> 
+<div id="container">
+<div style="position:relative;left:530px; top:180px; width:200px; height:200px">
+<img src="<%=request.getContextPath()%>\images\1.jpg" width=280px height=93px></div>
+<form action="<%=request.getContextPath()%>/FilmServlet" method="post"> 
+
+<div id="name"  class="search" style="display: block">
+    <input type="text" name="name" class="search_key" value="内容搜索" > 
+    <input type="submit" class="submit" value="搜索"> 
+</div> 
+
+<div id="director"  class="search" style="display: none">
+    <input type="text" name="director" class="search_key" value="导演搜索" > 
+    <input type="submit" class="submit" value="搜索"> 
+</div>
+
+<div id="role"  class="search" style="display: none">
+    <input type="text" name="role" class="search_key" value="主演搜索" > 
+    <input type="submit" class="submit" value="搜索"> 
+</div>  
+
+<div id="time"  class="search" style="display: none">
+  <FONT face="华文仿宋" size=4>
+    <select name="time" class="search_key" onChange="javascript:check(this.value)"> 
+       <option value="null">请选择时间(该时间之后上映的电影)</option>
+       <option value="1900">1900</option> 
+       <option value="1950">1950</option>
+       <option value="1990">1990</option>
+       <option value="1995">1995</option>
+       <option value="2000">2000</option>
+       <option value="2005">2005</option>
+       <option value="2010">2010</option>
+       <option value="2012">2012</option>
+       <option value="2014">2014</option>
+       <option value="2015">2015</option>
+    </select></FONT>
+    <input type="submit" class="submit" value="搜索"> 
+</div> 
+
+<div id="type"  class="search" style="display: none">
+    <FONT face="华文仿宋" size=4>
+    <select name="type" class="search_key" onChange="javascript:check(this.value)"> 
+       <option value="null">请选择类型</option>
+       <option value="科幻">科幻</option> 
+       <option value="悬疑">悬疑</option>
+       <option value="喜剧">喜剧</option>
+       <option value="爱情">爱情</option>
+       <option value="惊悚">惊悚</option>
+       <option value="动作">动作</option>
+       <option value="剧情">剧情</option>
+       <option value="犯罪">犯罪</option>
+       <option value="冒险">冒险</option>
+       <option value="传记">传记</option>
+    </select></FONT>
+    <input type="submit" class="submit" value="搜索"> 
+</div> 
+
+<div id="score"  class="search" style="display: none">
+    <FONT face="华文仿宋" size=4>
+    <select name="score" class="search_key" onChange="javascript:check(this.value)"> 
+       <option value="null">请选择评分</option>
+       <option value="5">5.0-6.0</option> 
+       <option value="6">6.0-7.0</option> 
+       <option value="7">7.0-8.0</option> 
+       <option value="8">8.0-9.0</option> 
+       <option value="9">9.0-10.0</option> 
+    </select></FONT>
+    <input type="submit" class="submit" value="搜索"> 
+</div>
+			<table class="table" align="center"
+				style="font-family: '微软雅黑'; font-size: 20px;">
+				<tr>
+					<td><input type="button" class="button" value="内容"
+						onclick="name()"></td>
+					<td><input type="button" class="button" value="导演"
+						onclick="director()"></td>
+					<td><input type="button" class="button" value="主演"
+						onclick="role()"></td>
+					<td><input type="button" class="button" value="上映时间"
+						onclick="time()"></td>
+					<td><input type="button" class="button" value="类别"
+						onclick="type()"></td>
+					<td><input type="button" class="button" value="评分"
+						onclick="score()"></td>
+				</tr>
+			</table>
+
+
+		</form>
+ 
+<div align="center">
+	<br><br><br><br><br><br><br><br><br><br><%out.print("版权所有：Momovie团队  (戴丛蔚 罗晶 罗尖 卢晓航 浦隽瑾 赵艺轩)"); %>
+</div>
+
+
+</div>
+</body> 
+
+</html>

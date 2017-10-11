@@ -1,0 +1,37 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>23</ID>
+<feature>
+<name>避风塘腰果鸡丁</name>
+<domestic>国内</domestic>
+<region>粤菜</region>
+<type>菜品</type>
+<favor>咸</favor>
+<favor>焦</favor>
+<favor>香</favor>
+<material>鸡脯肉</material>
+<material>腰果</material>
+<material>面粉</material>
+<material>黄瓜</material>
+<material>白果</material>
+<material>青椒</material>
+<material>胡萝卜</material>
+<material>蒜</material>
+<material>豆豉</material>
+</feature>
+<owner>
+<restaurant>和园港式茶餐厅</restaurant>
+<location>北京市海淀区海淀桥北畅春园食品街前排中心</location>
+<howtoarrive>北大小西门对面畅春园食街前排中心，走路到达约200米</howtoarrive>
+<price>33</price>
+<size>3</size>
+<match>柠檬红茶</match>
+<score>7</score>
+<critique>吃起来有点腻，太咸了，鸡丁很少，腰果很多</critique>
+<connection>鲫鱼豆腐汤</connection>
+<connection>黑椒牛肉</connection>
+</owner>
+<pic>23.jpg</pic>
+</item>

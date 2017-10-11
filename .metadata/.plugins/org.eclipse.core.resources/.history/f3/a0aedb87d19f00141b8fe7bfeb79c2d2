@@ -1,0 +1,123 @@
+<%@ page 	 contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" import="java.util.*"%>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>电影记录</title>
+
+<style type="text/css">
+.tit {
+	font-family: "华文行楷", "微软雅黑", "微软雅黑";
+	font-size: xx-large;
+}
+
+.button  {
+	color: #80bed6;  
+	background: -webkit-gradient(linear, left top, left bottom, from(#0078a5), to(#00adee));  
+    background: -moz-linear-gradient(top,  #0078a5,  #00adee);  
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');  
+
+ }
+ 
+ .name{
+    font-family: "华文仿宋";
+	font-size: large;
+	font-weight: 800;
+ }
+ 
+</style>
+
+</head>
+<body>
+<CENTER>  <p class="tit">电影之家</p></CENTER>
+<HR><P></P><CENTER><!--40行-->
+<FORM action="<%=request.getContextPath()%>/FilmServlet" METHOD="post"><%--查询表单--%>
+<B>输入书名中出现的任意词:</B>
+<INPUT TYPE=text NAME="searchCondition" SIZE=30>
+<INPUT TYPE=submit VALUE="查询">
+</FORM>
+<jsp:useBean id="filmBean" type="beans.FilmBean" scope="session"/>
+<H3>“<I><jsp:getProperty name="filmBean" property="searchCondition"/>
+      ”的查询结果     </I>
+目前在第<FONT SIZE = 4 COLOR = blue>
+		<%= filmBean.getShowPage() %></FONT>页, 共有
+		<FONT SIZE = 4 COLOR = blue>
+		<%= filmBean.getPageCount() %></FONT>页</H3>
+	<P></P></CENTER>
+	
+<%for(int i=0; i< filmBean.getSize();i++){ 	%> <!--将记录显示到页面上-->	
+	<table border="0" width="985" >
+	
+		<tr>
+			<td colspan="3">
+			<p class="name"><A Href=<%=filmBean.get(i).getSite()%>>	<%= filmBean.get(i).getName()%>下载-电影天堂</A>	</p>
+			</td>			
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td width="300">
+				<button type="button" class="button" onclick=download()>Download Now</button>
+				<script src="http://pstatic.xunlei.com/js/webThunderDetect.js"></script>
+				<script src="http://pstatic.xunlei.com/js/base64.js"></script>
+				<script language="javascript">
+				    function download(){
+				    var thunder_url = <%=filmBean.get(i).getSite()%>;
+				    var thunder_pid = "57029";
+				    var restitle = "";
+				    document.write('<a href="#" thunderHref="' + ThunderEncode(thunder_url) + '" thunderPid="' + thunder_pid + '" thunderResTitle="' + restitle + '" onClick="return OnDownloadClick_Simple(this,2,4)" oncontextmenu="ThunderNetwork_SetHref(this)">迅雷下载</a> ');
+					}
+				</script>											
+		      　</td>
+		    <td width="300">
+		    	<p> 时长：<%= filmBean.get(i).getTime()%> </p>
+		    </td>
+		    <td width="385">
+		    	<p> 语言：<%= filmBean.get(i).getCountry() %> </p>
+		    </td>
+		</tr>
+		
+		<tr>
+			<td >
+			<p>类型：<%= filmBean.get(i).getType() %></p>
+			</td>
+			<td >
+			<p>主演：<%= filmBean.get(i).getRole() %></p>
+			</td>
+			<td >
+			<p>导演：<%= filmBean.get(i).getDirector() %></p>
+			</td>
+		</tr>
+		
+		<tr>
+		    <%String s = filmBean.get(i).getIntroduction();    
+		       if (s.length()>150)    
+		          {    
+		             s = s.substring(0,150)+"...";    
+		         } 
+		      %>
+			<td rowspan="3" colspan="3"><p>剧情介绍：<%= s%></p></td>
+		</tr>
+		
+	
+	<%}//for循环结束 	%>
+	</table>			
+	<p></p><p align="center">　</p><!--显示翻页导航 -->	
+	<form method="POST" action="<%=request.getContextPath()%>/FilmServlet">
+		<p align="center">	
+		<%if(filmBean.getShowPage()!= 1){%><%--50行--%>
+		<A Href=<%=request.getContextPath()%>/FilmServlet?ToPage=<%= 1 %>>首页</A>&nbsp;&nbsp; 
+		<A Href=<%=request.getContextPath()%>/FilmServlet?ToPage=<%= filmBean.getShowPage() - 1 %>>
+		上一页</A>&nbsp;&nbsp;	
+		<%}%>
+		转到：
+		<INPUT type="text" name=ToPage value=<%= filmBean.getShowPage()%> > 
+		页&nbsp;	
+		<%if(filmBean.getShowPage()!= filmBean.getPageCount()){ %>	
+		<A Href=<%=request.getContextPath()%>/FilmServlet?ToPage=<%= filmBean.getShowPage() + 1%>>
+		下一页</A>&nbsp; <%--60行--%>
+		<A Href=<%=request.getContextPath()%>/FilmServlet?ToPage=<%= filmBean.getPageCount() %>>
+		尾页</A></p>
+		<%} %>
+	</form>
+</body>
+</html>  

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>45</ID>
+<feature>
+<name>干煸豆角</name>
+<domestic>国内</domestic>
+<region>川菜</region>
+<type>菜品</type>
+<favor>咸</favor>
+<favor>香</favor>
+<favor>微辣</favor>
+<material>肉沫</material>
+<material>豆角</material>
+<material>辣椒</material>
+</feature>
+<owner>
+<restaurant>磁福酒楼</restaurant>
+<location>海淀区颐和园路8号畅春园美食街A21B号(海淀桥北)</location>
+<howtoarrive>从北大小西门出，过马路后往右走，见到金凤成祥面包店后左拐，直走左方便是磁福酒楼，步行约5分钟</howtoarrive>
+<price>18</price>
+<size>3</size>
+<match>雪碧</match>
+<score>6</score>
+<critique>很好吃，就是太咸了</critique>
+<connection>干煸炒面</connection>
+</owner>
+<pic>45.jpg</pic>
+</item>

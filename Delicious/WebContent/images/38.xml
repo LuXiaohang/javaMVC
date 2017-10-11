@@ -1,0 +1,31 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>38</ID>
+<feature>
+<name>新疆酸奶</name>
+<domestic>国内</domestic>
+<region>西北</region>
+<type>甜点</type>
+<favor>酸</favor>
+<favor>甜</favor>
+<material>酸奶</material>
+<material>葡萄干</material>
+<material>花生仁</material>
+<material>白糖</material>
+</feature>
+<owner>
+<restaurant>阿娜尔罕餐厅</restaurant>
+<location>海淀区城隍庙小吃巷内</location>
+<howtoarrive>南门出发，过马路后从柯达标牌下进入</howtoarrive>
+<price>6</price>
+<size>1</size>
+<match>水果沙拉</match>
+<score>6</score>
+<critique>醇厚，但白糖与酸奶融合较差，口味参差不齐</critique>
+<connection>炒烤肉</connection>
+<connection>烤囊</connection>
+</owner>
+<pic>38.jpg</pic>
+</item>

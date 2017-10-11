@@ -1,0 +1,21 @@
+package beans;
+import java.io.IOException;
+import java.sql.*;
+
+public class FilmDBBean {
+	int pageSize = 3; //每页显示记录数，这里为每页显示条记录
+	int showPage = 1; //当前显示页
+	int rowCount = 0; //总记录数
+	int pageCount = 0; //记录分页后的总页数
+	FilmBean allPes = new FilmBean();//存放全被查询结果
+	FilmBean results = new FilmBean();//存放每页上查询结果 
+	Connection conn = null;
+	Statement stmt = null;
+    ResultSet rset = null;
+    String s1="";
+
+    public FilmDBBean(){}
+    public FilmDBBean(String searchconditon){
+    	
+    }
+}

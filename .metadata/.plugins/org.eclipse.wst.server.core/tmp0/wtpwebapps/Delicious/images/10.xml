@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>10</ID>
+<feature>
+<name>金汤肥牛</name>
+<domestic>国内</domestic>
+<region>川菜</region>
+<type>主食</type>
+<favor>酸</favor>
+<favor>微辣</favor>
+<material>牛肉</material>
+<material>金针菇</material>
+<material>辣椒</material>
+<material>黄瓜</material>
+</feature>
+<owner>
+<restaurant>阿娜尔罕餐厅</restaurant>
+<location>海淀区城隍庙小吃巷内</location>
+<howtoarrive>从北京大学南门出发，过马路后从柯达标牌下可见，约3分钟到达，总行程约100米</howtoarrive>
+<price>28</price>
+<size>3</size>
+<match>梅子酒</match>
+<score>8</score>
+<critique>很酸，但是不辣，比较下饭</critique>
+<connection>金汤肥羊</connection>
+</owner>
+<pic>10.jpg</pic>
+</item>

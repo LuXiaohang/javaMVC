@@ -1,0 +1,29 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>3</ID>
+<feature>
+<name>蓝莓山药</name>
+<domestic>国内</domestic>
+<region>其他</region>
+<type>甜点</type>
+<favor>酸甜</favor>
+<material>蓝莓</material>
+<material>山药</material>
+<material>冰糖</material>
+<material>奶油</material>
+</feature>
+<owner>
+<restaurant>麻辣诱惑（中关村店）</restaurant>
+<location>北京市海淀区中关村大街19号新中关2层</location>
+<howtoarrive>出北大东门向南直走过海淀大桥向西走，到中关村大街想南走200米右侧2层</howtoarrive>
+<price>22</price>
+<size>2</size>
+<match>香辣盆盆虾</match>
+<score>7</score>
+<critique>比较解辣，但感觉没什么特别的</critique>
+<connection>麻辣诱惑蛙</connection>
+</owner>
+<pic>3.jpg</pic>
+</item>

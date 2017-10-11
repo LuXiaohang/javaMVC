@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>8</ID>
+<feature>
+<name>清炒豌豆尖</name>
+<domestic>国内</domestic>
+<region>其他</region>
+<type>主食</type>
+<favor>香</favor>
+<material>豌豆尖</material>
+<material>蒜</material>
+</feature>
+<owner>
+<restaurant>傣家风味</restaurant>
+<location>北大南门对面</location>
+<howtoarrive>从北京大学南门出发，过马路后向西走，30米左右</howtoarrive>
+<price>18</price>
+<size>2</size>
+<match>梅子酒</match>
+<score>8</score>
+<critique>清爽可口</critique>
+<connection>清炒空心菜</connection>
+</owner>
+<pic>8.jpg</pic>
+</item>

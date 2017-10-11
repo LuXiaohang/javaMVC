@@ -1,0 +1,31 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>36</ID>
+<feature>
+<name>干煸炒面</name>
+<domestic>国内</domestic>
+<region>川菜</region>
+<type>小吃</type>
+<favor>咸</favor>
+<favor>香</favor>
+<favor>微辣</favor>
+<material>面</material>
+<material>牛肉</material>
+<material>芹菜</material>
+<material>韭菜</material>
+</feature>
+<owner>
+<restaurant>阿娜尔罕餐厅</restaurant>
+<location>海淀区城隍庙小吃巷内</location>
+<howtoarrive>南门出发，过马路后从柯达标牌下进入</howtoarrive>
+<price>12</price>
+<size>2</size>
+<match>啤酒</match>
+<score>8.5</score>
+<critique>偏咸偏油，但真的很好吃，极有新疆粗犷的风味</critique>
+<connection>好像目前木有……</connection>
+</owner>
+<pic>36.jpg</pic>
+</item>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>9</ID>
+<feature>
+<name>小炒肉</name>
+<domestic>国内</domestic>
+<region>其他</region>
+<type>主食</type>
+<favor>香</favor>
+<favor>微辣</favor>
+<material>猪肉</material>
+<material>小葱</material>
+<material>辣椒</material>
+</feature>
+<owner>
+<restaurant>傣家风味</restaurant>
+<location>北大南门对面</location>
+<howtoarrive>从北京大学南门出发，过马路后向西走，30米左右</howtoarrive>
+<price>26</price>
+<size>2</size>
+<match>梅子酒</match>
+<score>9</score>
+<critique>味道足，很香</critique>
+<connection>泡椒牛肉片</connection>
+</owner>
+<pic>9.jpg</pic>
+</item>

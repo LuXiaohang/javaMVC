@@ -1,0 +1,8 @@
+INDEX VERSION 1.122+E:\Something\study\大二\信息组织\group work\java group\food\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1455650575.index
+1639171992.index
+955456471.index
+4185068083.index
+1790764776.index
+3694520152.index
+2018057819.index

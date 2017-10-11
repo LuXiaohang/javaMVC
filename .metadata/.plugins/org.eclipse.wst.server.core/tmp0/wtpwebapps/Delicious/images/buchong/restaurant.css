@@ -1,0 +1,19 @@
+body { font-family:Verdana; font-size:14px; margin:0;}
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl, dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td,iframe{margin:0; padding:0;}
+#container {margin:0 auto; width:1000px;padding-left:0px;padding-right:96px;}
+.wraper{ width:1000px; margin:5px auto}
+.nav{ position:relative; width:100%; height:50px; background:#C70757; overflow:hidden}
+.nav-item{ position:relative; float:left; width:120px; height:40px; line-height:40px; text-align:center; font-size:14px; z-index:1}
+.nav-item a{ display:block; height:40px; color:#fff; }
+.nav-item a:hover{ color:#fff}
+.move-bg{ display:none;position:absolute;left:0;top:0; width:120px; height:40px; background:#4D0B33; z-index:0}
+#mainContent { min-height:250px; margin-bottom:5px;}
+
+#content { min-height:250px; background-image:url(beijing4.jpg);}
+#footer { height:60px; background:#FFE4E1;}
+h1 {padding-top:0.7cm;}
+h2 {text-decoration:blink;}
+li {font-weight:bold;}
+h3 {padding-top:0.3cm; font-weight:lighter; font-size:small;}
+
+

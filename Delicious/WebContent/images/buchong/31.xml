@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>31</ID>
+<feature>
+<name>铁板小章鱼 쭈꾸미볶음</name>
+<domestic>国外</domestic>
+<region>韩国</region>
+<type>菜品</type>
+<favor>辣</favor>
+<favor>甜</favor>
+<material>小章鱼</material>
+<material>猪肉</material>
+<material>辣椒</material>
+<material>洋葱</material>
+</feature>
+<owner>
+<restaurant>熊家城</restaurant>
+<location>北京朝阳区宏昌路望京四区420楼2层</location>
+<howtoarrive> 北京大学东门站乘坐4号线大兴线（天宫院方向），在海淀黄庄站下车（2站）。乘坐地铁10号线（内环），在太阳宫站下车 （10站）A西北口出，步行至夏家园站(200米) 乘坐130路，在大西洋新城东门站下车（7站），步行至熊家城160米 </howtoarrive>
+<price>48</price>
+<size>3</size>
+<match>米饭</match>
+<score>9</score>
+<critique>很辣</critique>
+<connection>无</connection>
+</owner>
+<pic>31.jpg</pic>
+</item>

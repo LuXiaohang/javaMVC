@@ -1,0 +1,104 @@
+<%@ page  contentType="text/html; charset=UTF-8"   pageEncoding="UTF-8"%>
+<html> 	
+<head> 
+    <title><% out.print("Momovie"); %></title>  
+	<script language="javascript" type="text/javascript">
+function check(value)
+{
+	if(value=="内容")
+	{
+	  document.getElementById('name').style.display="block";
+	  document.getElementById('director').style.display="none";
+	  document.getElementById('role').style.display="none";
+	  document.getElementById('type').style.display="none";
+	  document.getElementById('score').style.display="none";
+	  document.getElementById('time').style.display="none";
+	}	
+	else if(value=="导演")
+	{
+	  document.getElementById('name').style.display="none";
+	  document.getElementById('director').style.display="block";
+	  document.getElementById('role').style.display="none";
+	  document.getElementById('type').style.display="none";
+	  document.getElementById('score').style.display="none";
+	  document.getElementById('time').style.display="none";
+	}
+	else if(value=="主演")
+	{
+	  document.getElementById('name').style.display="none";
+	  document.getElementById('director').style.display="none";
+	  document.getElementById('role').style.display="block";
+	  document.getElementById('type').style.display="none";
+	  document.getElementById('score').style.display="none";
+	  document.getElementById('time').style.display="none";
+	}
+	else if(value=="类别")
+	{
+	  document.getElementById('name').style.display="none";
+	  document.getElementById('director').style.display="none";
+	  document.getElementById('role').style.display="none";
+	  document.getElementById('type').style.display="block";
+	  document.getElementById('score').style.display="none";
+	  document.getElementById('time').style.display="none";
+	}
+	else if(value=="评分")
+	{
+	  document.getElementById('name').style.display="none";
+	  document.getElementById('director').style.display="none";
+	  document.getElementById('role').style.display="none";
+	  document.getElementById('type').style.display="none";
+	  document.getElementById('score').style.display="block";
+	  document.getElementById('time').style.display="none";
+	}
+	else if(value=="上映时间")
+	{
+	  document.getElementById('name').style.display="none";
+	  document.getElementById('director').style.display="none";
+	  document.getElementById('role').style.display="none";
+	  document.getElementById('type').style.display="none";
+	  document.getElementById('score').style.display="none";
+	  document.getElementById('time').style.display="block";
+	}
+}
+</script>
+
+ <style type="text/css">
+     .button
+    {
+    	width:100px;
+    	height:50px;
+    	font-style:"微软雅黑";
+        font-size:20px;
+        background:White ;
+        border:0;
+    }
+  div#container{
+  margin:auto; 
+  padding-top:200px;
+  border: 1px solid 000000;}
+</style>
+
+</head>
+<body>
+<div id="container">
+<div style="text-align:center;margin:auto;">
+<img src="<%=request.getContextPath()%>\images\1.jpg" width=280px height=93px>
+</div>
+<div align="center">
+<FORM action="<%=request.getContextPath()%>/FoodServlet" METHOD="post">
+          <input type="button" class="button" value="内容" onChange="javascript:check(this.value);">
+		  <input type="button" class="button" value="导演" onChange="javascript:check(this.value);">
+		  <input type="button" class="button" value="主演" onChange="javascript:check(this.value);">
+		  <input type="button" class="button" value="上映时间" onChange="javascript:check(this.value);">
+	      <input type="button" class="button" value="类型" onChange="javascript:check(this.value);">
+	      <input type="button" class="button" value="评分" onChange="javascript:check(this.value);">
+	      
+</FORM>
+</div>
+<div align="center">
+	<br><br><br><br><br><br><br><br><br><%out.print("版权所有：Momovie团队"); %>
+</div>
+</div>
+</body> 
+
+</html>

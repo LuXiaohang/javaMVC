@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>47</ID>
+<feature>
+<name>蟹黄豆腐</name>
+<domestic>国内</domestic>
+<region>其他</region>
+<type>菜品</type>
+<favor>鲜</favor>
+<favor>香</favor>
+<favor>滑</favor>
+<favor>嫩</favor>
+<material>螃蟹</material>
+<material>豆腐</material>
+<material>鸡蛋</material>
+<material>虾仁</material>
+</feature>
+<owner>
+<restaurant>麻辣诱惑</restaurant>
+<location>北京市海淀区中关村大街15号津乐汇购物广场二层</location>
+<howtoarrive>以北大南门为起点，像正东走约100米右转，再走约100米左转，直行过海淀桥后走至上品折扣，在路口左转，直行过三个红绿灯后见津乐汇，直上二楼</howtoarrive>
+<price>36</price>
+<size>3</size>
+<match>西米露</match>
+<score>7</score>
+<critique>味道一如既往的好</critique>
+<connection>上汤娃娃菜</connection>
+</owner>
+<pic>47.jpg</pic>
+</item>

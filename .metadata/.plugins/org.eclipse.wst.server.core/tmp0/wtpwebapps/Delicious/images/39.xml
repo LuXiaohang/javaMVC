@@ -1,0 +1,33 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>39</ID>
+<feature>
+<name>鱼香茄子煲</name>
+<domestic>国内</domestic>
+<region>川菜</region>
+<type>菜品</type>
+<favor>酸</favor>
+<favor>甜</favor>
+<favor>微辣</favor>
+<favor>香</favor>
+<material>茄子</material>
+<material>木耳</material>
+<material>青椒</material>
+<material>红辣椒</material>
+</feature>
+<owner>
+<restaurant>磁福酒楼</restaurant>
+<location>海淀区颐和园路8号畅春园美食街A21B号(海淀桥北)</location>
+<howtoarrive>从北大小西门出，过马路后往右走，见到金凤成祥面包店后左拐，直走左方便是磁福酒楼，步行约5分钟</howtoarrive>
+<price>18</price>
+<size>3</size>
+<match>酸梅汤</match>
+<score>5</score>
+<critique>一般，带有酸甜味，吃多了就腻</critique>
+<connection>咸鱼茄子煲</connection>
+<connection>鱼香肉丝</connection>
+</owner>
+<pic>39.jpg</pic>
+</item>

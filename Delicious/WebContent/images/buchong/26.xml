@@ -1,0 +1,33 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>26</ID>
+<feature>
+<name>金枪鱼紫菜包饭 참치김밥</name>
+<domestic>国外</domestic>
+<region>韩国</region>
+<type>主食</type>
+<favor>香</favor>
+<favor>咸</favor>
+<material>米饭</material>
+<material>紫菜</material>
+<material>蔬菜</material>
+<material>金枪鱼</material>
+</feature>
+<owner>
+<restaurant>拌30</restaurant>
+<location>北京市海淀区颐和园路(近西苑地铁)</location>
+<howtoarrive> 从北大西门搭乘608路至西苑站，在此站下车后可步行至拌30
+</howtoarrive>
+<price>26</price>
+<size>1</size>
+<match>炒年糕</match>
+<match>辛拉面</match>
+<score>8</score>
+<critique>有点贵</critique>
+<connection>芝士紫菜包饭</connection>
+<connection>牛肉紫菜包饭</connection>
+</owner>
+<pic>26.jpg</pic>
+</item>

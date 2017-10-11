@@ -1,0 +1,29 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>7</ID>
+<feature>
+<name>过桥米线</name>
+<domestic>国内</domestic>
+<region>其他</region>
+<type>主食</type>
+<favor>香</favor>
+<material>米线</material>
+<material>猪肉</material>
+<material>鹌鹑蛋</material>
+<material>猪肝</material>
+</feature>
+<owner>
+<restaurant>傣家风味</restaurant>
+<location>北大南门对面</location>
+<howtoarrive>从北京大学南门出发，过马路后向西走，30米左右</howtoarrive>
+<price>25</price>
+<size>2</size>
+<match>梅子酒</match>
+<score>8</score>
+<critique>香醇可口</critique>
+<connection>肉末米线</connection>
+</owner>
+<pic>7.jpg</pic>
+</item>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>18</ID>
+<feature>
+<name>麻辣诱惑蛙</name>
+<domestic>国内</domestic>
+<region>川菜</region>
+<type>菜品</type>
+<favor>麻辣</favor>
+<material>山蛙</material>
+<material>丝瓜</material>
+<material>香菇</material>
+<material>方竹笋</material>
+<material>辣椒</material>
+</feature>
+<owner>
+<restaurant>麻辣诱惑（中关村店）</restaurant>
+<location>北京市海淀区中关村大街19号新中关2层</location>
+<howtoarrive>出北大东门向南直走过海淀大桥向西走，到中关村大街想南走200米右侧2层</howtoarrive>
+<price>59</price>
+<size>3</size>
+<match>酸梅汤</match>
+<score>7</score>
+<critique>实在是没有看到什么蛙，感觉大多数都是菜，也不够辣，油腻</critique>
+<connection>水煮鱼</connection>
+<connection>毛血旺</connection>
+</owner>
+<pic>18.jpg</pic>
+</item>

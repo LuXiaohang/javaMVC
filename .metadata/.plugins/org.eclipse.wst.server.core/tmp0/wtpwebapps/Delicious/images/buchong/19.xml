@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>19</ID>
+<feature>
+<name>香辣盆盆虾</name>
+<domestic>国内</domestic>
+<region>川菜</region>
+<type>菜品</type>
+<favor>麻辣</favor>
+<material>白虾</material>
+<material>芹菜段</material>
+<material>香菇</material>
+<material>方竹笋</material>
+<material>辣椒</material>
+<material>葱段</material>
+</feature>
+<owner>
+<restaurant>麻辣诱惑（中关村店）</restaurant>
+<location>北京市海淀区中关村大街19号新中关2层</location>
+<howtoarrive>出北大东门向南直走过海淀大桥向西走，到中关村大街想南走200米右侧2层</howtoarrive>
+<price>53</price>
+<size>3</size>
+<match>酸梅汤</match>
+<score>8</score>
+<critique>香辣味，肉厚色鲜，香辣味美，吃了让人欲罢不能，但可能对于不太能吃辣的人来说过于辣</critique>
+<connection>水煮鱼</connection>
+<connection>蟹黄豆腐</connection>
+</owner>
+<pic>19.jpg</pic>
+</item>

@@ -1,0 +1,7 @@
+INDEX VERSION 1.126
+E:\Something\study\大二\信息组织\group work\java group\food\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2951268522.index
+\Delicious\src
+E:\Something\study\大二\信息组织\group work\java group\food\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\96010778.index
+\Delicious\src
+E:\Something\study\大二\信息组织\group work\java group\food\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1790764776.index
+\Film\src

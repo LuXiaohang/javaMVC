@@ -1,0 +1,26 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>48</ID>
+<feature>
+<name>土豆球</name>
+<domestic>国内</domestic>
+<region>其他</region>
+<type>菜品</type>
+<favor>香</favor>
+<material>土豆</material>
+</feature>
+<owner>
+<restaurant>七彩云间云南傣家风味</restaurant>
+<location>海淀区海淀路19-1号中成大厦1楼(北大南门对面)</location>
+<howtoarrive>北大南门为起点，过马路后即可见到</howtoarrive>
+<price>14</price>
+<size>3</size>
+<match>水酒</match>
+<score>8</score>
+<critique>不愧是招牌菜，很好吃，每次必点</critique>
+<connection>烤饵块</connection>
+</owner>
+<pic>48.jpg</pic>
+</item>

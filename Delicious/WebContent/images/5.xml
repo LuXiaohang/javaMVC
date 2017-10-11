@@ -1,0 +1,33 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>5</ID>
+<feature>
+<name>小米椒爱上小公鸡</name>
+<domestic>国内</domestic>
+<region>川菜</region>
+<type>菜品</type>
+<favor>麻辣</favor>
+<material>鸡腿</material>
+<material>米椒</material>
+<material>花生</material>
+<material>香芹</material>
+<material>洋葱</material>
+<material>蒜</material>
+<material>姜</material>
+</feature>
+<owner>
+<restaurant>麻辣诱惑（中关村店）</restaurant>
+<location>北京市海淀区中关村大街19号新中关2层</location>
+<howtoarrive>出北大东门向南直走过海淀大桥向西走，到中关村大街想南走200米右侧2层</howtoarrive>
+<price>48</price>
+<size>3</size>
+<match>酸梅汤</match>
+<score>8</score>
+<critique>评价：这道菜鸡肉嫩滑，里面有麻油的香味，还有淡淡的蒜香味</critique>
+<connection>蟹黄豆腐</connection>
+<connection>蓝莓山药</connection>
+</owner>
+<pic>5.jpg</pic>
+</item>

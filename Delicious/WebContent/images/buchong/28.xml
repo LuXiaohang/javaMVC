@@ -1,0 +1,33 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>28</ID>
+<feature>
+<name>部队火锅 부대찌개</name>
+<domestic>国外</domestic>
+<region>韩国</region>
+<type>菜品</type>
+<favor>微辣</favor>
+<favor>酸</favor>
+<favor>甜</favor>
+<material>火腿</material>
+<material>肉</material>
+<material>蔬菜</material>
+<material>面</material>
+<material>年糕</material>
+</feature>
+<owner>
+<restaurant>拌30</restaurant>
+<location>北京市海淀区颐和园路(近西苑地铁)</location>
+<howtoarrive> 从北大西门搭乘608路至西苑站，在此站下车后可步行至拌30
+</howtoarrive>
+<price>78</price>
+<size>4</size>
+<match>米饭</match>
+<score>9</score>
+<critique>不是火锅</critique>
+<connection>无</connection>
+</owner>
+<pic>28.jpg</pic>
+</item>

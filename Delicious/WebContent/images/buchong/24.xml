@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>24</ID>
+<feature>
+<name>香芋榴莲酥</name>
+<domestic>国内</domestic>
+<region>粤菜</region>
+<type>甜点</type>
+<favor>甜</favor>
+<favor>焦</favor>
+<favor>脆</favor>
+<material>香芋</material>
+<material>面粉</material>
+<material>鸡蛋</material>
+<material>榴莲</material>
+</feature>
+<owner>
+<restaurant>和园港式茶餐厅</restaurant>
+<location>北京市海淀区海淀桥北畅春园食品街前排中心</location>
+<howtoarrive>北大小西门对面畅春园食街前排中心，走路到达约200米</howtoarrive>
+<price>12</price>
+<size>2</size>
+<match>杨枝甘露</match>
+<score>8.5</score>
+<critique>外皮酥脆，内里滑软香甜，有榴莲的味道，但并不冲</critique>
+<connection>椰浆水果捞</connection>
+<connection>纸包鸡翅</connection>
+</owner>
+<pic>24.jpg</pic>
+</item>

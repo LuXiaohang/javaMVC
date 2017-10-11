@@ -1,0 +1,64 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="restaurant.xsl"?>
+
+<root>
+<item>
+<ID>29</ID>
+<feature>
+<name>辣烧猪肉</name>
+<domestic>国外</domestic>
+<region>韩国</region>
+<type>菜品</type>
+<favor>微辣</favor>
+<favor>甜</favor>
+<favor>酸</favor>
+<material>猪肉</material>
+<material>豆芽</material>
+<material>辣椒酱</material>
+</feature>
+<owner>
+<restaurant>全州屋</restaurant>
+<location> 朝阳区阜安西路望京西园三区316号楼底商(近阜通西大街)</location>
+<howtoarrive> 地铁北京大学东门站坐4号线至海淀黄庄，然后换乘地铁10号线，在太阳宫站下车，步行至夏家园站，乘坐467路公交在望京西园四区站下车，步行至全州屋</howtoarrive>
+<price>30</price>
+<size>2</size>
+<match>米饭</match>
+<score>7</score>
+<critique>还可以，一般</critique>
+<connection>炸虾乌冬面</connection>
+</owner>
+<pic>29.jpg</pic>
+</item>
+
+
+<item>
+<ID>30</ID>
+<feature>
+<name>泡菜汤</name>
+<domestic>国外</domestic>
+<region>韩国</region>
+<type>菜品</type>
+<favor>微辣</favor>
+<favor>酸</favor>
+<material>猪肉</material>
+<material>泡菜</material>
+<material>葱</material>
+<material>辣椒</material>
+<material>洋葱</material>
+</feature>
+<owner>
+<restaurant>全州屋</restaurant>
+<location> 朝阳区阜安西路望京西园三区316号楼底商(近阜通西大街)</location>
+<howtoarrive> 地铁北京大学东门站坐4号线至海淀黄庄，然后换乘地铁10号线，在太阳宫站下车，步行至夏家园站，乘坐467路公交在望京西园四区站下车，步行至全州屋</howtoarrive>
+<price>30</price>
+<size>2-3</size>
+<match>米饭</match>
+<score>9</score>
+<critique>韩国传统菜品</critique>
+<connection>大酱汤</connection>
+</owner>
+<pic>30.jpg</pic>
+</item>
+
+
+</root>

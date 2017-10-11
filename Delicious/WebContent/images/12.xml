@@ -1,0 +1,31 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>12</ID>
+<feature>
+<name>烤鸡翅</name>
+<domestic>国内</domestic>
+<region>西北</region>
+<type>小吃</type>
+<favor>微辣</favor>
+<favor>香</favor>
+<material>鸡翅</material>
+<material>孜然</material>
+<material>辣椒</material>
+</feature>
+<owner>
+<restaurant>阿娜尔罕餐厅</restaurant>
+<location>海淀区城隍庙小吃巷内</location>
+<howtoarrive>从北京大学南门出发，过马路后从柯达标牌下可见，约3分钟到达，总行程约100米</howtoarrive>
+<price>8</price>
+<size>1</size>
+<match>啤酒</match>
+<score>8</score>
+<critique>外焦里嫩，味道足</critique>
+<connection>羊肉串</connection>
+<connection>羊羯子</connection>
+<connection>骨肉相连</connection>
+</owner>
+<pic>12.jpg</pic>
+</item>

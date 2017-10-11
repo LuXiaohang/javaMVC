@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>11</ID>
+<feature>
+<name>烤羊腿</name>
+<domestic>国内</domestic>
+<region>西北</region>
+<type>菜品</type>
+<favor>咸</favor>
+<favor>香</favor>
+<material>羊肉</material>
+<material>孜然</material>
+<material>辣椒</material>
+</feature>
+<owner>
+<restaurant>阿娜尔罕餐厅</restaurant>
+<location>海淀区城隍庙小吃巷内</location>
+<howtoarrive>从北京大学南门出发，过马路后从柯达标牌下可见，约3分钟到达，总行程约100米</howtoarrive>
+<price>18</price>
+<size>3</size>
+<match>啤酒</match>
+<score>9</score>
+<critique>粗犷的感觉，不过入味不够</critique>
+<connection>羊肉串</connection>
+<connection>羊羯子</connection>
+</owner>
+<pic>11.jpg</pic>
+</item>

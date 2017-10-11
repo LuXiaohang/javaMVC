@@ -1,0 +1,18 @@
+package robot;
+public class Film {
+	//电影元素
+	public String chineseName;//中文名
+	public String Name;//英文名
+	public String onTime;//上映时间
+	public String country;//国家
+	public String classify;//分类
+	public String language;//语言
+	public String score;//评分
+	public String filmTime;//电影时长
+	public String director;//导演
+	public String leadingRole;//主演
+	public String intoduction;//简介
+	public String site;//地址
+	public String picture;//图片
+	public String href;
+}

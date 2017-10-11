@@ -1,0 +1,28 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>44</ID>
+<feature>
+<name>汽锅鸡</name>
+<domestic>国内</domestic>
+<region>其他</region>
+<type>汤</type>
+<favor>咸</favor>
+<favor>香</favor>
+<material>鸡肉</material>
+<material>葱</material>
+</feature>
+<owner>
+<restaurant>七彩云间云南傣家风味</restaurant>
+<location>海淀区海淀路19-1号中成大厦1楼(北大南门对面)</location>
+<howtoarrive>北大南门为起点，过马路后即可见到</howtoarrive>
+<price>18</price>
+<size>2</size>
+<match>米饭</match>
+<score>5</score>
+<critique>偏咸，油，鸡肉嫩，味道鲜美</critique>
+<connection>酱爆黄焖鸡</connection>
+</owner>
+<pic>44.jpg</pic>
+</item>

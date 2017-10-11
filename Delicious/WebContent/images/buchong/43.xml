@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>43</ID>
+<feature>
+<name>炸茄盒</name>
+<domestic>国内</domestic>
+<region>浙菜</region>
+<type>菜品</type>
+<favor>酸</favor>
+<favor>香</favor>
+<favor>微辣</favor>
+<material>面粉</material>
+<material>茄子</material>
+<material>肉</material>
+</feature>
+<owner>
+<restaurant>七彩云间云南傣家风味</restaurant>
+<location>海淀区海淀路19-1号中成大厦1楼(北大南门对面)</location>
+<howtoarrive>北大南门为起点，过马路后即可见到</howtoarrive>
+<price>18</price>
+<size>2</size>
+<match>米酒</match>
+<score>5</score>
+<critique>不错，价格合算</critique>
+<connection>炸藕盒</connection>
+</owner>
+<pic>43.jpg</pic>
+</item>

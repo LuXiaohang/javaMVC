@@ -1,0 +1,33 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>20</ID>
+<feature>
+<name>豉油皇炒面</name>
+<domestic>国内</domestic>
+<region>粤菜</region>
+<type>小吃</type>
+<favor>咸</favor>
+<material>面条</material>
+<material>猪肉</material>
+<material>鱿鱼</material>
+<material>韭菜</material>
+<material>绿豆芽</material>
+<material>洋葱</material>
+<material>芝麻</material>
+</feature>
+<owner>
+<restaurant>和园港式茶餐厅</restaurant>
+<location>北京市海淀区海淀桥北畅春园食品街前排中心</location>
+<howtoarrive>北大小西门对面畅春园食街前排中心，走路到达约200米</howtoarrive>
+<price>23</price>
+<size>1</size>
+<match>普洱茶</match>
+<score>8</score>
+<critique>太咸了，面条口感不好</critique>
+<connection>滑鸡腊肠煲仔饭</connection>
+<connection>干锅牛蛙</connection>
+</owner>
+<pic>20.jpg</pic>
+</item>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>25</ID>
+<feature>
+<name>辣味蒸牛排</name>
+<domestic>国外</domestic>
+<region>韩国</region>
+<type>菜品</type>
+<favor>很辣</favor>
+<favor>甜</favor>
+<favor>酸</favor>
+<material>牛排</material>
+<material>年糕</material>
+<material>蔬菜</material>
+</feature>
+<owner>
+<restaurant>明洞排骨</restaurant>
+<location>海淀区成府路23号五道口电影院三号厅旁</location>
+<howtoarrive> 北大东南门走至中关园北站，乘坐429或331或562路至五道口站，步行至此店。
+</howtoarrive>
+<price>65</price>
+<size>3</size>
+<match>米饭</match>
+<score>8.5</score>
+<critique>特别辣</critique>
+<connection>大酱汤</connection>
+</owner>
+<pic>25.jpg</pic>
+</item>

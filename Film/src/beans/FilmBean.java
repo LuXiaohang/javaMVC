@@ -1,0 +1,46 @@
+package beans;
+import java.util.*;
+public class FilmBean {
+	//Set<Film> Films=new TreeSet<Film>();
+	List<Film> Filml=new ArrayList<Film>();
+	String searchCondition;
+	
+	public int showPage; //显示页的页码   
+	public int pageCount; //总页数    
+	public String getSearchCondition() {//设置检索条件
+		return searchCondition;
+	}
+	public void setSearchCondition(String searchCondition){//返回检索条件
+		this.searchCondition = searchCondition;
+	}
+	
+	public int getShowPage() {//返回显示页的页码
+		return showPage;//15行
+	}
+	public void setShowPage(int showPage) {//设置显示页的页码
+		this.showPage = showPage;
+	}
+	public int getPageCount() {//返回总页数
+		return pageCount;
+	}
+	public void setPageCount(int pageCount) {//设置总页数
+		this.pageCount = pageCount;
+	} 
+	public int getSize() {//返回数量
+		return this.Filml.size();
+	} 
+	public Film get(int i) {//返回对象
+		return this.Filml.get(i);
+	}
+	public void add(Film s) {//将电影添加到Filml
+		//if(this.Films.add(s)){
+			this.Filml.add(s);
+			return;
+		//}
+	}
+	public void clear() {//清空Films
+		//this.Films.clear();
+		this.Filml.clear();
+	}
+
+}

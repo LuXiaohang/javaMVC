@@ -1,0 +1,84 @@
+<%@ page  contentType="text/html; charset=UTF-8"   pageEncoding="UTF-8"%>
+<html> 	
+<head> 
+    <title><% out.print("Momovie"); %></title>  
+	<script language="javascript" type="text/javascript">
+function check(value)
+{
+	if(value=="name")
+	{
+	  document.getElementById('name').style.display="block";
+	  document.getElementById('director').style.display="none";
+	  document.getElementById('role').style.display="none";
+	  document.getElementById('type').style.display="none";
+	  document.getElementById('score').style.display="none";
+	  document.getElementById('time').style.display="none";
+	}	
+	else if(value=="director")
+	{
+	  document.getElementById('name').style.display="none";
+	  document.getElementById('director').style.display="block";
+	  document.getElementById('role').style.display="none";
+	  document.getElementById('type').style.display="none";
+	  document.getElementById('score').style.display="none";
+	  document.getElementById('time').style.display="none";
+	}
+	else if(value=="role")
+	{
+	  document.getElementById('name').style.display="none";
+	  document.getElementById('director').style.display="none";
+	  document.getElementById('role').style.display="block";
+	  document.getElementById('type').style.display="none";
+	  document.getElementById('score').style.display="none";
+	  document.getElementById('time').style.display="none";
+	}
+	else if(value=="type")
+	{
+	  document.getElementById('name').style.display="none";
+	  document.getElementById('director').style.display="none";
+	  document.getElementById('role').style.display="none";
+	  document.getElementById('type').style.display="block";
+	  document.getElementById('score').style.display="none";
+	  document.getElementById('time').style.display="none";
+	}
+	else if(value=="score")
+	{
+	  document.getElementById('name').style.display="none";
+	  document.getElementById('director').style.display="none";
+	  document.getElementById('role').style.display="none";
+	  document.getElementById('type').style.display="none";
+	  document.getElementById('score').style.display="block";
+	  document.getElementById('time').style.display="none";
+	}
+	else if(value==time)
+	{
+	  document.getElementById('name').style.display="none";
+	  document.getElementById('director').style.display="none";
+	  document.getElementById('role').style.display="none";
+	  document.getElementById('type').style.display="none";
+	  document.getElementById('score').style.display="none";
+	  document.getElementById('time').style.display="block";
+	}
+}
+</script>
+
+ <style type="text/css">
+  div#container{padding-top:80px; 
+  padding-left:96px; 
+  padding-right:96px; 
+  padding-bottom:40px; 
+  border: 1px solid 000000;}
+</style>
+
+</head>
+<body>
+<div id="container">
+<div style="position:absolute; left:550px; top:170px; width:200px; height:200px">
+<img src="<%=request.getContextPath()%>\images\1.jpg" width=280px height=93px></div>
+<div align="center">
+	<br><br><br><br><br><br><br><br><br><%out.print("版权所有：Momovie团队"); %>
+</div>
+</div>
+</body> 
+
+</html>

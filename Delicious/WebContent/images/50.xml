@@ -1,0 +1,33 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>50</ID>
+<feature>
+<name>毛血旺</name>
+<domestic>国内</domestic>
+<region>川菜</region>
+<type>菜品</type>
+<favor>滑</favor>
+<favor>香</favor>
+<favor>麻辣</favor>
+<material>鸭血</material>
+<material>牛百叶</material>
+<material>莴笋</material>
+<material>黑鱼片</material>
+<material>辣椒</material>
+<material>鳝鱼</material>
+</feature>
+<owner>
+<restaurant>麻辣诱惑</restaurant>
+<location>北京市海淀区中关村大街15号津乐汇购物广场二层</location>
+<howtoarrive>以北大南门为起点，像正东走约100米右转，再走约100米左转，直行过海淀桥后走至上品折扣，在路口左转，直行过三个红绿灯后见津乐汇，直上二楼</howtoarrive>
+<price>47</price>
+<size>3</size>
+<match>蟹黄豆腐</match>
+<score>9</score>
+<critique>特别新鲜，吃的很过瘾，每次必点！！</critique>
+<connection>麻辣小龙虾</connection>
+</owner>
+<pic>50.jpg</pic>
+</item>

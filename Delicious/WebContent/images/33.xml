@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>33</ID>
+<feature>
+<name>辣烧猪肉 제육볶음</name>
+<domestic>国外</domestic>
+<region>韩国</region>
+<type>菜品</type>
+<favor>微辣</favor>
+<favor>甜</favor>
+<material>猪肉</material>
+<material>辣椒</material>
+<material>蔬菜</material>
+</feature>
+<owner>
+<restaurant>舍廊房</restaurant>
+<location> 海淀区成府路35号东源大厦3楼(近光合作用书店)</location>
+<howtoarrive> 北大东南门走至中关园北站，乘坐429或331或562路至五道口站，步行至此店。
+</howtoarrive>
+<price>25</price>
+<size>2</size>
+<match>米饭</match>
+<score>8</score>
+<critique>一般</critique>
+<connection>酸梅汤</connection>
+</owner>
+<pic>33.jpg</pic>
+</item>

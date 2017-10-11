@@ -1,0 +1,31 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>40</ID>
+<feature>
+<name>三椒鱼片</name>
+<domestic>国内</domestic>
+<region>川菜</region>
+<type>菜品</type>
+<favor>嫩</favor>
+<favor>麻辣</favor>
+<favor>香</favor>
+<material>红椒</material>
+<material>花椒</material>
+<material>青椒</material>
+<material>鱼</material>
+</feature>
+<owner>
+<restaurant>磁福酒楼</restaurant>
+<location>北京市海淀区中关村大街15号津乐汇购物广场二层</location>
+<howtoarrive>以北大南门为起点，像正东走约100米右转，再走约100米左转，直行过海淀桥后走至上品折扣，在路口左转，直行过三个红绿灯后见津乐汇，直上二楼</howtoarrive>
+<price>48</price>
+<size>3</size>
+<match>酸梅汤</match>
+<score>7</score>
+<critique>口味地道，辣</critique>
+<connection>三椒浸牛蛙</connection>
+</owner>
+<pic>40.jpg</pic>
+</item>

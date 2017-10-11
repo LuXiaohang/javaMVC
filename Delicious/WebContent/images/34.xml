@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>34</ID>
+<feature>
+<name>套餐料理(套餐C)</name>
+<domestic>国外</domestic>
+<region>韩国</region>
+<type>菜品</type>
+<favor>香</favor>
+<favor>甜</favor>
+<favor>辣</favor>
+<favor>甜</favor>
+<material>肉</material>
+<material>蔬菜</material>
+<material>等</material>
+</feature>
+<owner>
+<restaurant>坦坦大陆</restaurant>
+<location> 海淀区成府路35号东源大厦4楼(近五道口城铁)</location>
+<howtoarrive> 北大东南门走至中关园北站，乘坐429或331或562路至五道口站，步行至此店。
+</howtoarrive>
+<price>人均48</price>
+<size>4</size>
+<match>无</match>
+<score>9</score>
+<critique>有质量</critique>
+<connection>烤蘑菇拼盘</connection>
+</owner>
+<pic>34.jpg</pic>
+</item>

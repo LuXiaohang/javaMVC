@@ -1,0 +1,36 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>35</ID>
+<feature>
+<name>馕包烤肉</name>
+<domestic>国内</domestic>
+<region>西北</region>
+<type>主食</type>
+<favor>咸</favor>
+<favor>香</favor>
+<favor>微辣</favor>
+<favor>脆</favor>
+<material>馕</material>
+<material>羊肉</material>
+<material>青椒</material>
+<material>洋葱</material>
+<material>红辣椒</material>
+<material>孜然</material>
+<material>胡椒</material>
+</feature>
+<owner>
+<restaurant>阿娜尔罕餐厅</restaurant>
+<location>海淀区城隍庙小吃巷内</location>
+<howtoarrive>南门出发，过马路后从柯达标牌下进入</howtoarrive>
+<price>40</price>
+<size>3</size>
+<match>普洱茶</match>
+<score>9</score>
+<critique>味道很好，羊肉略咸，性价比高</critique>
+<connection>大盘鸡</connection>
+<connection>羊肉串</connection>
+</owner>
+<pic>35.jpg</pic>
+</item>

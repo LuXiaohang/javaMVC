@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>46</ID>
+<feature>
+<name>金银馒头</name>
+<domestic>国内</domestic>
+<region>鲁菜</region>
+<type>主食</type>
+<favor>香</favor>
+<favor>甜</favor>
+<material>面粉</material>
+</feature>
+<owner>
+<restaurant>磁福酒楼</restaurant>
+<location>海淀区颐和园路8号畅春园美食街A21B号(海淀桥北)</location>
+<howtoarrive>从北大小西门出，过马路后往右走，见到金凤成祥面包店后左拐，直走左方便是磁福酒楼，步行约5分钟</howtoarrive>
+<price>16</price>
+<size>2</size>
+<match>炼奶</match>
+<score>8</score>
+<critique>金馒头外面炸得太薄了，总体好吃</critique>
+<connection>印度薄饼 油炸冰淇淋</connection>
+</owner>
+<pic>46.jpg</pic>
+</item>

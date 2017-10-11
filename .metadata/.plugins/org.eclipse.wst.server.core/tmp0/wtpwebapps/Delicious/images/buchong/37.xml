@@ -1,0 +1,34 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>37</ID>
+<feature>
+<name>铁板日本豆腐</name>
+<domestic>国外</domestic>
+<region>日本</region>
+<type>菜品</type>
+<favor>酸</favor>
+<favor>甜</favor>
+<favor>滑</favor>
+<favor>嫩</favor>
+<material>日本豆腐</material>
+<material>红辣椒</material>
+<material>青椒</material>
+<material>洋葱</material>
+<material>香菇</material>
+</feature>
+<owner>
+<restaurant>阿娜尔罕餐厅</restaurant>
+<location>海淀区城隍庙小吃巷内</location>
+<howtoarrive>南门出发，过马路后从柯达标牌下进入</howtoarrive>
+<price>20</price>
+<size>3</size>
+<match>紫菜蛋花汤</match>
+<score>7.5</score>
+<critique>挺好吃的，外焦里嫩，口感顺滑</critique>
+<connection>铁板烧</connection>
+<connection>乌冬面</connection>
+</owner>
+<pic>37.jpg</pic>
+</item>

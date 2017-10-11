@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>14</ID>
+<feature>
+<name>白灼菜心</name>
+<domestic>国内</domestic>
+<region>粤菜</region>
+<type>菜品</type>
+<favor>咸</favor>
+<favor>脆</favor>
+<favor>嫩</favor>
+<material>油菜苔</material>
+<material>蒜</material>
+</feature>
+<owner>
+<restaurant>麻辣诱惑（中关村店）</restaurant>
+<location>北京市海淀区中关村大街19号新中关2层</location>
+<howtoarrive>出北大东门向南直走过海淀大桥向西走，到中关村大街想南走200米右侧2层</howtoarrive>
+<price>22</price>
+<size>2</size>
+<match>酸梅汤</match>
+<score>6</score>
+<critique>没什么特点，但是对于吃了很多辣的我们，还是很清热解辣的</critique>
+<connection>面包诱惑</connection>
+<connection>上汤蜂窝豆腐</connection>
+</owner>
+<pic>14.jpg</pic>
+</item>

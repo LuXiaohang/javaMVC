@@ -1,0 +1,28 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dishes.xsl"?>
+
+<item>
+<ID>49</ID>
+<feature>
+<name>菠萝饭</name>
+<domestic>国内</domestic>
+<region>其它</region>
+<type>主食</type>
+<favor>酸</favor>
+<favor>甜</favor>
+<material>米饭</material>
+<material>菠萝</material>
+</feature>
+<owner>
+<restaurant>七彩云间云南傣家风味</restaurant>
+<location>海淀区海淀路19-1号中成大厦1楼(北大南门对面)</location>
+<howtoarrive>北大南门为起点，过马路后即可见到</howtoarrive>
+<price>25</price>
+<size>3</size>
+<match>小炒肉</match>
+<score>8</score>
+<critique>份量不算大，味道很好，又酸又甜</critique>
+<connection>傣味烤鱼</connection>
+</owner>
+<pic>49.jpg</pic>
+</item>
